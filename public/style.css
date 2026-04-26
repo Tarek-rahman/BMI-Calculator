@@ -1,0 +1,36 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.BMIcontainer{
+    width: 400px;
+    height: 500px;
+    background-color: cadetblue;
+    text-align: center;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+label{
+    display: block;
+}
+.Div{
+    text-align: left;
+    margin-bottom: 20px;
+}
+input{
+    padding: 10px;
+    width: calc(100% - 20px);
+    margin-top: 5px;
+    border-radius: 7px;
+    border: none;
+}
+button{
+    padding: 10px;
+    border-radius: 7px;
+    font-weight: 600;
+    width: calc(100% - 200px);
+    font-size: 18px;
+}
